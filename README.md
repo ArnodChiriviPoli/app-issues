@@ -1,27 +1,27 @@
-# Tickets
+# README
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+**¿Qué proyecto de software realizarán para el Módulo y bajo qué lenguaje de programación?**
 
-## Development server
+El proyecto que hemos decidido desarrollar esa una aplicación web que estará destinada a gestionar issues para una mesa de ayuda en informática, en donde se podrán realizar peticiones y establecerles una prioridad, esto para el caso del usuario solicitante. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+En el contexto del usuario de soporte, podrá asignarse issues, darle su respectivo soporte, hacer seguimiento general. 
 
-## Code scaffolding
+Para el desarrollo del proyecto, está divido en backend y frontend: 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**Backend:**
 
-## Build
+* Node JS (Express JS) 
+* MySQL 
+* Jest 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+**Frontend:**
 
-## Running unit tests
+* Bootstrap 
+* Angular 
+* Jasmine 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**¿Por qué seleccionaron ese tipo de proyecto de software?**
 
-## Running end-to-end tests
+En la actualidad muchas empresas de tecnología que prestan servicios no cuentan con una herramienta que les permita gestionar issues o inconvenientes de cara al cliente y de una forma centralizada. 
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Es por esto por lo que definimos en este proyecto la solución mención, como una gran propuesta de valor a este tipo de negocios. 
