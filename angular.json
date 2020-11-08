@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Tickets"
+    }
+  },
+  "defaultProject": "Tickets",
+  "cli": {
+    "analytics": "a8a54251-6ceb-4f1e-9ee5-623a56a61269"
+  }
 }
