@@ -1,0 +1,21 @@
+language: node_js
+
+node_js:
+  - 12.16
+
+cache: npm
+
+services:
+  - docker
+
+jobs:
+  include:
+    - stage: Install
+      script:
+        - npm install --save-exact
+    - stage: Test
+      script:
+        - npm test
+    - stage: Build
+      script:
+        - npm run build
