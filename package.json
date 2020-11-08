@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
+    "build": "ng build --prod --aot --optimization",
+    "test": "ng test --browsers ChromeHeadless --source-map=false --watch=false",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
