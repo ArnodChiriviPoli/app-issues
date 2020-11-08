@@ -6,7 +6,8 @@ import { NavbarComponent } from './shared/components/navbar/navbar.component';
 import { MainSidebarContainerComponent } from './shared/components/main-sidebar-container/main-sidebar-container.component';
 import { CreationIssueComponent } from './components/creation-issue/creation-issue.component';
 import { IssuesComponent } from './components/issues/issues.component';
-
+import { AppRoutingModule } from './app-routing.module';
+import { MainPageComponent } from './components/main-page/main-page.component';
 
 
 @NgModule({
@@ -15,10 +16,12 @@ import { IssuesComponent } from './components/issues/issues.component';
     NavbarComponent,
     MainSidebarContainerComponent,
     CreationIssueComponent,
-    IssuesComponent
+    IssuesComponent,
+    MainPageComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
