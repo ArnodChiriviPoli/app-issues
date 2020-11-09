@@ -1,11 +1,17 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './shared/components/navbar/navbar.component';
+import { MainSidebarContainerComponent } from './shared/components/main-sidebar-container/main-sidebar-container.component';
+import {RouterTestingModule} from '@angular/router/testing'
 
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
+      imports: [ RouterTestingModule ],  
       declarations: [
-        AppComponent
+        AppComponent,
+        NavbarComponent,
+        MainSidebarContainerComponent
       ],
     }).compileComponents();
   });
